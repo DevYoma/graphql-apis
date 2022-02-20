@@ -14,10 +14,11 @@ const CharactersList = () => {
 
     const mappedData = data.characters.results.map(character => (
         <Link to={`/${character.id}`} key={character.id} className='characterList'>
-            <img src={character.image} alt="image" />
+            <img src={character.image} alt="characters" />
             <h2>{character.name}</h2>
         </Link>
     ))
+
 
     return ( 
         <div className='characterLists'>

@@ -22,8 +22,9 @@ const Character = () => {
 
     return ( 
         <div className="character">
+            {/* <button className="characterBackButton">Home Page</button> */}
             <div>
-                <img src={data.character.image} alt="image" />
+                <img src={data.character.image} alt="character" />
             </div>
             <div className="characterContent">
                 <h1>{data.character.name}</h1>
