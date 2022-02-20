@@ -1,5 +1,22 @@
 .character{
     display: flex;
-
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    /* position: relative; */
 }
 
+.character > div:first-of-type{
+    margin-right: 3rem;
+}
+
+
+.characterContent{
+    text-align: center;
+}
+
+/* .characterBackButton{
+    position: absolute  ;
+    left: 0px;
+} */
